@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            height: 500px;
+            width: 500px;
+        }
+    </style>
+    <script src="../dist/ag-grid.js"></script>
+</head>
+<body>
+<div style="height: 100%; padding-top: 30px; box-sizing: border-box;">
+    <div id="myGrid" class="ag-fresh" style="height: 100%;"></div>
+</div>
+<div style="position: absolute; top: 0px; left: 0px; padding: 8px;">
+    <input type="text" oninput="onQuickFilterChanged(this.value)" id="quickFilter" placeholder="quick filter..." />
+    <input type="button" onclick="onButtonClicked()"  />
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

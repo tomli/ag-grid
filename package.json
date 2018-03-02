@@ -1,7 +1,7 @@
 {
-  "name": "ag-grid",
+  "name": "ag-grid-row-unselectable",
   "version": "16.0.1",
-  "description": "Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components",
+  "description": "A fork version of ag-grid which add the feature of disabling selection on row level. ",
   "main": "./main.js",
   "scripts": {
     "test": "exit 0",
@@ -10,7 +10,7 @@
   "typings": "./main.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ag-grid/ag-grid.git"
+    "url": "git+https://github.com/tomli/ag-grid-row-unselectable.git"
   },
   "keywords": [
     "web-components",
@@ -30,9 +30,15 @@
   "author": "Niall Crosby <niall.crosby@ag-grid.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ag-grid/ag-grid/issues"
+    "url": "https://github.com/tomli/ag-grid-row-unselectable/issues"
   },
-  "homepage": "http://www.ag-grid.com/",
+  "homepage": "https://github.com/tomli/ag-grid-row-unselectable",
+  "maintainers": [
+    {
+      "name": "Tom Li",
+      "email": "wolf1030@163.com"
+    }
+  ],
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "cache-loader": "^1.0.3",

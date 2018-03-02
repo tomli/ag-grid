@@ -1,7 +1,7 @@
 /**
- * ag-grid - Advanced Data Grid / Data Table supporting Javascript / React / AngularJS / Web Components
+ * ag-grid-row-unselectable - A fork version of ag-grid which add the feature of disabling selection on row level. 
  * @version v16.0.1
- * @link http://www.ag-grid.com/
+ * @link https://github.com/tomli/ag-grid-row-unselectable
  * @license MIT
  */
 "use strict";

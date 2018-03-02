@@ -1,5 +1,5 @@
-// Type definitions for ag-grid v16.0.1
-// Project: http://www.ag-grid.com/
+// Type definitions for ag-grid-row-unselectable v16.0.1
+// Project: https://github.com/tomli/ag-grid-row-unselectable
 // Definitions by: Niall Crosby <https://github.com/ag-grid/>
 export { BalancedColumnTreeBuilder } from "./dist/lib/columnController/balancedColumnTreeBuilder";
 export { ColumnController } from "./dist/lib/columnController/columnController";

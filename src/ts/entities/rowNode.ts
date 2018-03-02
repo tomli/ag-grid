@@ -699,8 +699,19 @@ export class RowNode implements IEventEmitter {
         });
     }
 
+    public isSelectable(): boolean {
+        let isNodeSelectable = true;
+        if (typeof this.gridOptionsWrapper.isNodeSelectableFunc() === 'function')
+            isNodeSelectable = this.gridOptionsWrapper.isNodeSelectableFunc()(this);
+        return isNodeSelectable;
+    }
+
     public selectThisNode(newValue: boolean): boolean {
         if (this.selected === newValue) { return false; }
+
+        if (!this.isSelectable()) {
+            return false;
+        }
 
         this.selected = newValue;
 

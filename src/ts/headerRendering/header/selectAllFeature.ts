@@ -112,7 +112,7 @@ export class SelectAllFeature extends BeanStub {
         let callback = (node: RowNode) => {
             if (node.isSelected()) {
                 selectedCount++;
-            } else {
+            } else  if (node.isSelectable()) {
                 notSelectedCount++;
             }
         };
